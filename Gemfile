@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
@@ -38,3 +38,24 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# learn-rails
+gem 'activerecord-tableless'
+	#helps use Rails without a database
+gem 'figaro'
+	#Configuration Framewrok
+gem 'foundation-rails'
+	#Front-end framework
+gem 'gibbon'
+	#access to MailChimp API
+gem 'google_drive'
+	#use googledrive spreadsheets for data storage
+gem 'high_voltage'
+	#for static pages like "about"
+gem 'simple_form'
+	#forms made easy
+
+group :development do 
+	gem 'better_errors' #Helps when things go wrong
+	gem 'quiet_assets' # suppresses dsitracting error messages in the log
+	gem 'rails_layout' # generates files for an application layout
+end
