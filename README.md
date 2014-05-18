@@ -1,4 +1,11 @@
+Learning Rails
+==
+
+This is a test update to github, working through a tutorial fromt he RailsApps project and want to do all the steps. yay learning Rails!
+
+
 == README
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
